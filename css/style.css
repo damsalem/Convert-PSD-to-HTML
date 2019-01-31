@@ -1,0 +1,294 @@
+@font-face{
+    font-family: "Helvetica Neue LT Std";
+    src: url("./fonts/Helvetica Neue LT Std/HelveticaNeueLTStd-Lt.otf");
+}
+
+@font-face{
+    font-family: "Helvetica Neue LT STD 75 Bold";
+    src: url("./fonts/Helvetica Neue LT Std/HelveticaNeueLTStd-Bd.otf");
+}
+
+@font-face{
+    font-family: "Helvetica Neue LT STD 47 Light Condensed";
+    src: url("./fonts/Helvetica Neue LT Std/HelveticaNeueLTStd-LtCn.otf");
+}
+
+body{
+    font-family: "Helvetica Neue LT Std";
+}
+
+header .am-logo{
+    height: 150px;
+    width: 100px;
+    margin: 50px 0px 0px 150px;
+}
+
+h2.logo2{
+    position: absolute;
+    background-image: url(../images/nav-a&m2.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    text-indent: -10000px;
+    right: 5%;
+    top: 0;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1199px){
+    h2.logo2{
+        visibility: hidden;
+    }
+}
+
+header .nav-container{
+    margin-left: 100px;
+}
+
+header nav li{
+    margin-top: 7%;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+header nav li a{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar .navbar-collapse .navbar-nav li a{
+    color: #3585B7;
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover{
+    color: rgb(81, 180, 241);
+}
+
+/*============
+Body Styling
+============*/
+
+.fullscreen-bg{
+    position: relative;
+    overflow: hidden;
+}
+
+.fullscreen-bg video {
+    width: 100%;
+    z-index: 0;
+}
+
+.fullscreen-bg .vfullscreen-bg__video h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 8px;
+    color: white;
+    margin: 0;
+    font: 14px Sans-Serif;
+  }
+
+
+.fullscreen-bg .purple-circle{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+    color: #fff;
+}
+
+/* For phones */
+.fullscreen-bg .purple-circle h2{
+    font-family: "Helvetica Neue LT STD 75 Bold";
+    font-size: 14px;
+}
+
+.fullscreen-bg .purple-circle h3{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 500px){
+    /* For tablets: */
+    .fullscreen-bg .purple-circle h2{
+        font-size: 22px;
+    }
+    .fullscreen-bg .purple-circle h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 725px){
+    /* For desktops: */
+    .fullscreen-bg .purple-circle h2{
+        font-size: 35px;
+    }
+    .fullscreen-bg .purple-circle h3{
+        font-size: 30px;
+    }
+}
+
+.wrapper .about{
+    margin: 3% 15%;
+    text-align: center;
+}
+
+.wrapper .about h2{
+    color: #00355F;
+    font-family: "Helvetica Neue LT STD 47 Light Condensed";
+    font-size: 60px;
+}
+
+#services-banner{
+    position: relative;
+}
+
+#services-banner img{
+    width: 100%;
+}
+
+/* For phones */
+#services-banner .center-left-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 35%;
+    z-index: 1;
+    font-size: 5px;
+}
+#services-banner .center-left-text h2{
+    font-family: "Helvetica Neue LT STD 47 Light Condensed";
+    font-size: 9px;
+    color: #00355F;
+    margin-bottom: 0%;
+}
+
+@media only screen and (min-width: 400px){
+    /* For larger phones: */
+    #services-banner .center-left-text{
+        font-size: 6px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    /* For small tablets: */
+    #services-banner .center-left-text{
+        font-size: 7px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 15px;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 625px){
+    /* For regular tablets: */
+    #services-banner .center-left-text{
+        font-size: 9px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 15px;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    /* For large tablets: */
+    #services-banner .center-left-text{
+        font-size: 10px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 20px;
+        margin: 10px 0 7px 0px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    /* For small desktops: */
+    #services-banner .center-left-text{
+        font-size: 11px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 20px;
+        margin: 10px 0 7px 0px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    /* For middle desktops: */
+    #services-banner .center-left-text{
+        font-size: 13px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 25px;
+        margin: 10px 0 7px 0px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    /* For regular desktops: */
+    #services-banner .center-left-text{
+        font-size: 14px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 35px;
+        margin: 10px 0 7px 0px;
+    }
+}
+
+@media only screen and (min-width: 1050px){
+    /* For middle-large desktops: */
+    #services-banner .center-left-text{
+        font-size: 14px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 45px;
+        margin: 10px 0 3% 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    /* For large desktops: */
+    #services-banner .center-left-text{
+        font-size: 15px;
+    }
+    #services-banner .center-left-text h2{
+        font-size: 55px;
+        margin: 8% 0 5% 0px;
+    }
+}
+
+/*============
+Footer Styling
+============*/
+footer{
+    background: #01244A;
+    color: #fff;
+    padding: 50px 0;    
+}
+
+footer ul{
+    float: left;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li{
+    margin: 10px 0;
+}
+
+footer #follow p{
+    font-size: 21px;
+}
+
+footer #follow li{
+    margin: 0 5px;
+    display: inline;
+}
+
+footer .copyright{
+    margin: 50px 0 0 0;
+}
