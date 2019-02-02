@@ -13,6 +13,10 @@
     src: url("./fonts/Helvetica Neue LT Std/HelveticaNeueLTStd-LtCn.otf");
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body{
     font-family: "Helvetica Neue LT Std";
 }
