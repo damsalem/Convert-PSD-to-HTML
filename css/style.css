@@ -141,6 +141,7 @@ Body Styling
     color: #00355F;
     font-family: "Helvetica Neue LT STD 47 Light Condensed";
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 #services-banner{
@@ -165,6 +166,7 @@ Body Styling
     font-size: 9px;
     color: #00355F;
     margin-bottom: 0%;
+    text-transform: uppercase;
 }
 
 @media only screen and (min-width: 400px){
